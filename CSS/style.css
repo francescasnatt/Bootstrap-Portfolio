@@ -1,0 +1,14 @@
+:root{ 
+    --primary: #00473E;
+    --secondary: #FAAE2B;
+    --para: #475D5B;
+    --header: #FFFFFE;
+}
+
+section{
+    background-color: var(--primary);
+}
+
+.jumbotron container{
+    background-color: var(--primary);
+}
