@@ -5,13 +5,12 @@
     --header: #FFFFFE;
 }
 
-.customNav{
-    background-color: green;
-    text-decoration: underline;
+.navbar{
+    background-color: #00473E;
 }
 
 .jumbotron{
-    text-decoration: underline;
+    background-color: #FAAE2B;
 }
 
 .navbar a{
@@ -20,4 +19,8 @@
 
 h1{
     color: #FAAE2B;
+}
+
+#project1{
+    background-color: #00473E;
 }
