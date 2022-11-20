@@ -5,22 +5,23 @@
     --header: #FFFFFE;
 }
 
-.navbar{
-    background-color: #00473E;
+/* whole page styling */
+body{
+    background-color: var(--primary);
 }
 
+/* navbar styling */
+
+
+/* hero section styling */
 .jumbotron{
-    background-color: #FAAE2B;
+    background-color: var(--primary);
 }
 
-.navbar a{
-    color: #FAAE2B;
-}
+/* projects section styling */
 
-h1{
-    color: #FAAE2B;
-}
+/* skills section styling */
 
-#project1{
-    background-color: #00473E;
-}
+/* about/contact me section styling */
+
+/* footer styling */
