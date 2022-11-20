@@ -3,11 +3,17 @@
     --secondary: #FAAE2B;
     --para: #475D5B;
     --header: #FFFFFE;
+    --card-bg: #F2F7F5;
 }
 
 /* whole page styling */
 body{
     background-color: var(--primary);
+}
+
+.btn{
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 
 /* navbar styling */
@@ -27,8 +33,31 @@ body{
 
 /* projects section styling */
 
-/* skills section styling */
+/* skills + about/contact me sections styling */
+.card-body{
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    margin: 10px; 
+}
 
-/* about/contact me section styling */
+.skillsRow, .aboutRow{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
 
 /* footer styling */
+.footerRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.footerRow a{
+    margin: 8px;
+}
+
+.linkedin{
+    max-height: 2px;
+}
