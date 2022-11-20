@@ -11,11 +11,18 @@ body{
 }
 
 /* navbar styling */
-
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    color: #FFFFFE; !important
+}
 
 /* hero section styling */
 .jumbotron{
     background-color: var(--primary);
+    color: var(--header);
+    text-align: center;
+    margin: 70px auto
 }
 
 /* projects section styling */
