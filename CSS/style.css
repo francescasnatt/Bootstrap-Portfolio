@@ -5,10 +5,19 @@
     --header: #FFFFFE;
 }
 
-section{
-    background-color: var(--primary);
+.customNav{
+    background-color: green;
+    text-decoration: underline;
 }
 
-.jumbotron container{
-    background-color: var(--primary);
+.jumbotron{
+    text-decoration: underline;
+}
+
+.navbar a{
+    color: #FAAE2B;
+}
+
+h1{
+    color: #FAAE2B;
 }
