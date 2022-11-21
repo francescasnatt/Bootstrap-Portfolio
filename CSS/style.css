@@ -16,10 +16,9 @@ body{
     color: var(--primary);
 }
 
-h2{
-    transform: rotate(-90deg);
+/* h2{
     color: var(--header);
-}
+} */
 
 /* navbar styling */
 .navbar{
@@ -37,18 +36,29 @@ h2{
 }
 
 /* projects section styling */
+.projectsHeader{
+    color: var(--header);
+}
+
+.projectsRow .cardContainer{
+    margin-top: 20px;
+}
 
 /* skills + about/contact me sections styling */
 .card-body{
     background-color: var(--card-bg);
     border-radius: 10px;
-    margin: 10px; 
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 0.01px var(--card-bg);
 }
 
 .skillsRow, .aboutRow{
     display: flex;
     justify-content: center;
-    padding-top: 150px;
 }
 
 /* footer styling */
